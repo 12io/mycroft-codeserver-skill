@@ -1,0 +1,4 @@
+Code-server wurde gestartet und ist unter https doppelpunkt doppel släsch {{ip}} doppelpunkt {{port}} erreichbar.
+Der code-server ist nun unter https://{{ip}}:{{port}} aufrufbar.
+Der code-server wurde beendet.
+Code-server wurde gestoppt.
