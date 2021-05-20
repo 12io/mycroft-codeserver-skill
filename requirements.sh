@@ -3,7 +3,7 @@
 # Install NodeJS from nodesource, 12.x because of node-js version requirements from vs-code: https://github.com/microsoft/vscode/wiki/How-to-Contribute#prerequisites
 curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get update
-sudo apt-get install -y node-js build-essential gcc g++ make
+sudo apt-get install -y nodejs build-essential gcc g++ make
 
 # Fetch installation script from code-server and execute via curl | sh. This should install code-server via npm.
 curl -fsSL https://code-server.dev/install.sh | sudo -E sh
