@@ -25,7 +25,7 @@ certfile="${CERT_DIR}/${IP}.crt"
 
 openssl req -x509 -nodes -days "${CERT_VALIDITY}" -newkey rsa:2048 -keyout "${keyfile}" -out "${certfile}" -subj "/CN=${CERT_CN}/OU=${CERT_OU}"
 
-$validPort=0
+validPort=0
 while [ ${validPort} -eq 0 ]; do
     port=10443
     ss -tlpn | grep :${port}
